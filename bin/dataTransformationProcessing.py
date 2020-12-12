@@ -149,7 +149,7 @@ def spawn_autosklearn_classifier(X_train, y_train, seed, dataset_name, time_left
     try:
         lo.info("Starting seed=" + str(seed))
         try:
-            clf.fit(X_train, y_train, metric=autosklearn.metrics.f1, feat_type=feat_type, dataset_name=dataset_name)
+            clf.fit(X_train, y_train, metric=autosklearn.metrics.f1_micro, feat_type=feat_type, dataset_name=dataset_name)
         except Exception:
             lo = utl.get_logger(inspect.stack()[0][3])
             lo.exception("Error in clf.fit - seed:" + str(seed))
@@ -207,9 +207,9 @@ def zeroconf_fit_ensemble(y, atsklrn_tempdir):
     try:
         lo.debug("Start ensemble.fit_ensemble - seed:" + str(seed))
         ensemble.fit_ensemble(
-            task=BINARY_CLASSIFICATION
+            task=MULTICLASS_CLASSIFICATION
             , y=y
-            , metric=autosklearn.metrics.f1
+            , metric=autosklearn.metrics.f1_micro
             , precision='32'
             , dataset_name='foobar'
             , ensemble_size=10

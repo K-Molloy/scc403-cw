@@ -184,7 +184,7 @@ logger.info("#" * 72)
 logger.info("Accuracy score {0:2.0%}".format(accuracy_score(y_test, y_hat)))
 logger.info("The below scores are calculated for predicting '1' category value")
 logger.info("Precision: {0:2.0%}, Recall: {1:2.0%}, F1: {2:.2f}".format(
-    precision_score(y_test, y_hat), recall_score(y_test, y_hat), f1_score(y_test, y_hat)))
+    precision_score(y_test, y_hat, average='micro'), recall_score(y_test, y_hat, average='micro'), f1_score(y_test, y_hat, average='micro')))
 #############################
 ## Print COnfusion Matrix
 #############################
