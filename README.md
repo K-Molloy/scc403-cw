@@ -1,5 +1,7 @@
 # SCC 403 - Coursework
 
+Please see https://github.com/K-Molloy/scc403-cw for the repo
+
 Please note the automl section will only run on UNIX based configurations due to python limitations.
 
 ## Installation
