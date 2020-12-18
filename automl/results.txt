@@ -1,0 +1,114 @@
+2020-12-12 19:05:20,553 - [ZEROCONF] - zeroconf.py - INFO - Program started with the following arguments:
+2020-12-12 19:05:20,553 - [ZEROCONF] - zeroconf.py - INFO - Namespace(data_file=['./data/df_final.h5'], param_file=None)
+2020-12-12 19:05:20,553 - [ZEROCONF] - zeroconf.py - INFO - Using the default parameter file: /home/kieran/university/scc403/autosklearn-zeroconf/parameter/default.yml
+2020-12-12 19:05:20,555 - [ZEROCONF] - zeroconf.py - INFO - Set basedir to: /home/kieran/university/scc403/autosklearn-zeroconf
+2020-12-12 19:05:20,561 - [ZEROCONF] - zeroconf.py - INFO - Program Call Parameter (Arguments and Parameter File Values):
+2020-12-12 19:05:20,575 - [ZEROCONF] - zeroconf.py - INFO -    basedir: /home/kieran/university/scc403/autosklearn-zeroconf
+2020-12-12 19:05:20,575 - [ZEROCONF] - zeroconf.py - INFO -    data_file: /home/kieran/university/scc403/autosklearn-zeroconf/data/df_final.h5
+2020-12-12 19:05:20,575 - [ZEROCONF] - zeroconf.py - INFO -    id_field: idx
+2020-12-12 19:05:20,576 - [ZEROCONF] - zeroconf.py - INFO -    max_classifier_time_budget: 1200
+2020-12-12 19:05:20,576 - [ZEROCONF] - zeroconf.py - INFO -    max_sample_size: 100000
+2020-12-12 19:05:20,576 - [ZEROCONF] - zeroconf.py - INFO -    memory_limit: 15000
+2020-12-12 19:05:20,576 - [ZEROCONF] - zeroconf.py - INFO -    parameter_file: /home/kieran/university/scc403/autosklearn-zeroconf/parameter/default.yml
+2020-12-12 19:05:20,576 - [ZEROCONF] - zeroconf.py - INFO -    proc: zeroconf.py
+2020-12-12 19:05:20,576 - [ZEROCONF] - zeroconf.py - INFO -    resultfile: /home/kieran/university/scc403/autosklearn-zeroconf/data/zeroconf-result.csv
+2020-12-12 19:05:20,576 - [ZEROCONF] - zeroconf.py - INFO -    runid: 20201212141037
+2020-12-12 19:05:20,576 - [ZEROCONF] - zeroconf.py - INFO -    runtype: RESTART
+2020-12-12 19:05:20,576 - [ZEROCONF] - zeroconf.py - INFO -    target_field: category
+2020-12-12 19:05:20,576 - [ZEROCONF] - zeroconf.py - INFO -    workdir: /home/kieran/university/scc403/autosklearn-zeroconf/work/20201212141037
+2020-12-12 19:05:20,814 - [ZEROCONF] - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2020-12-12 19:05:20,848 - [ZEROCONF] - zeroconf.py - INFO - Read dataset from the store
+2020-12-12 19:05:20,848 - [ZEROCONF] - zeroconf.py - INFO - Values of y [6 0 3 7 4 2 5 8 1]
+2020-12-12 19:05:20,849 - [ZEROCONF] - zeroconf.py - INFO - We need to protect NAs in y from the prediction dataset so we convert them to -1
+2020-12-12 19:05:20,851 - [ZEROCONF] - zeroconf.py - INFO - New values of y [6 0 3 7 4 2 5 8 1]
+2020-12-12 19:05:20,851 - [ZEROCONF] - zeroconf.py - INFO - Filling missing values in X with the most frequent values
+2020-12-12 19:05:20,864 - [ZEROCONF] - zeroconf.py - INFO - Factorizing the X
+2020-12-12 19:05:21,214 - [ZEROCONF] - x_y_dataframe_split - INFO - Dataframe split into X and y
+2020-12-12 19:05:21,215 - [ZEROCONF] - zeroconf.py - INFO - Preparing a sample to measure approx classifier run time and select features
+2020-12-12 19:05:21,217 - [ZEROCONF] - zeroconf.py - INFO - train size:1181
+2020-12-12 19:05:21,218 - [ZEROCONF] - zeroconf.py - INFO - test size:582
+2020-12-12 19:05:21,218 - [ZEROCONF] - zeroconf.py - INFO - Reserved 33% of the training dataset for validation (upto 33k rows)
+2020-12-12 19:05:21,224 - [ZEROCONF] - max_estimators_fit_duration - INFO - Constructing preprocessor pipeline and transforming sample data
+2020-12-12 19:05:21,599 - [ZEROCONF] - max_estimators_fit_duration - INFO - Running estimators on the sample
+2020-12-12 19:05:21,644 - [ZEROCONF] - zeroconf.py - INFO - adaboost starting
+2020-12-12 19:05:21,660 - [ZEROCONF] - zeroconf.py - INFO - bernoulli_nb starting
+2020-12-12 19:05:21,673 - [ZEROCONF] - zeroconf.py - INFO - bernoulli_nb training time: 0.011530160903930664
+2020-12-12 19:05:21,678 - [ZEROCONF] - zeroconf.py - INFO - decision_tree starting
+2020-12-12 19:05:21,686 - [ZEROCONF] - zeroconf.py - INFO - decision_tree training time: 0.0047991275787353516
+2020-12-12 19:05:21,697 - [ZEROCONF] - zeroconf.py - INFO - extra_trees starting
+2020-12-12 19:05:21,711 - [ZEROCONF] - zeroconf.py - INFO - gaussian_nb starting
+2020-12-12 19:05:21,723 - [ZEROCONF] - zeroconf.py - INFO - gaussian_nb training time: 0.009971141815185547
+2020-12-12 19:05:21,727 - [ZEROCONF] - zeroconf.py - INFO - gradient_boosting starting
+2020-12-12 19:05:21,748 - [ZEROCONF] - zeroconf.py - INFO - k_nearest_neighbors starting
+2020-12-12 19:05:21,758 - [ZEROCONF] - zeroconf.py - INFO - k_nearest_neighbors training time: 0.00804758071899414
+2020-12-12 19:05:21,768 - [ZEROCONF] - zeroconf.py - INFO - lda starting
+2020-12-12 19:05:21,788 - [ZEROCONF] - zeroconf.py - INFO - liblinear_svc starting
+2020-12-12 19:05:21,793 - [ZEROCONF] - zeroconf.py - INFO - lda training time: 0.017484188079833984
+2020-12-12 19:05:21,803 - [ZEROCONF] - zeroconf.py - INFO - adaboost training time: 0.15668773651123047
+2020-12-12 19:05:21,830 - [ZEROCONF] - zeroconf.py - INFO - liblinear_svc training time: 0.03416562080383301
+2020-12-12 19:05:21,834 - [ZEROCONF] - zeroconf.py - INFO - multinomial_nb starting
+2020-12-12 19:05:21,852 - [ZEROCONF] - zeroconf.py - INFO - multinomial_nb training time: 0.009491920471191406
+2020-12-12 19:05:21,859 - [ZEROCONF] - zeroconf.py - INFO - passive_aggressive starting
+2020-12-12 19:05:21,880 - [ZEROCONF] - zeroconf.py - INFO - passive_aggressive training time: 0.017052412033081055
+2020-12-12 19:05:21,898 - [ZEROCONF] - zeroconf.py - INFO - random_forest starting
+2020-12-12 19:05:21,916 - [ZEROCONF] - zeroconf.py - INFO - sgd starting
+2020-12-12 19:05:21,936 - [ZEROCONF] - zeroconf.py - INFO - extra_trees training time: 0.23652887344360352
+2020-12-12 19:05:22,112 - [ZEROCONF] - zeroconf.py - INFO - random_forest training time: 0.21164584159851074
+2020-12-12 19:05:22,143 - [ZEROCONF] - zeroconf.py - INFO - sgd training time: 0.22312617301940918
+2020-12-12 19:05:23,133 - [ZEROCONF] - zeroconf.py - INFO - gradient_boosting training time: 1.4007165431976318
+2020-12-12 19:05:23,142 - [ZEROCONF] - max_estimators_fit_duration - INFO - Test classifier fit completed
+2020-12-12 19:05:23,145 - [ZEROCONF] - zeroconf.py - INFO - per_run_time_limit=3
+2020-12-12 19:05:23,153 - [ZEROCONF] - define_pool_size - INFO - Virtual Memory Size = 17136869376
+2020-12-12 19:05:23,153 - [ZEROCONF] - define_pool_size - INFO - CPU Count =8
+2020-12-12 19:05:23,153 - [ZEROCONF] - define_pool_size - INFO - Max CPU Pool Size by Memory = 2
+2020-12-12 19:05:23,153 - [ZEROCONF] - zeroconf.py - INFO - Process pool size=2
+2020-12-12 19:05:23,153 - [ZEROCONF] - zeroconf.py - INFO - Starting autosklearn classifiers fiting on a 67% sample up to 67k rows
+2020-12-12 19:05:23,160 - [ZEROCONF] - train_multicore - INFO - Max time allowance for a model 1 minute(s)
+2020-12-12 19:05:23,160 - [ZEROCONF] - train_multicore - INFO - Overal run time is about 6 minute(s)
+2020-12-12 19:05:23,174 - [ZEROCONF] - train_multicore - INFO - Multicore process 2 started
+2020-12-12 19:05:23,190 - [ZEROCONF] - train_multicore - INFO - Multicore process 3 started
+2020-12-12 19:05:23,203 - [ZEROCONF] - spawn_autosklearn_classifier - INFO - Start AutoSklearnClassifier seed=2
+2020-12-12 19:05:23,210 - [ZEROCONF] - spawn_autosklearn_classifier - INFO - Done AutoSklearnClassifier seed=2
+2020-12-12 19:05:23,217 - [ZEROCONF] - spawn_autosklearn_classifier - INFO - Start AutoSklearnClassifier seed=3
+2020-12-12 19:05:23,224 - [ZEROCONF] - spawn_autosklearn_classifier - INFO - Done AutoSklearnClassifier seed=3
+2020-12-12 19:05:25,211 - [ZEROCONF] - spawn_autosklearn_classifier - INFO - Starting seed=2
+2020-12-12 19:05:26,225 - [ZEROCONF] - spawn_autosklearn_classifier - INFO - Starting seed=3
+[WARNING] [2020-12-12 19:07:37,419:smac.intensification.intensification.Intensifier] Challenger was the same as the current incumbent; Skipping challenger
+[WARNING] [2020-12-12 19:07:37,419:smac.intensification.intensification.Intensifier] Challenger was the same as the current incumbent; Skipping challenger
+[WARNING] [2020-12-12 19:07:48,935:smac.intensification.intensification.Intensifier] Challenger was the same as the current incumbent; Skipping challenger
+[WARNING] [2020-12-12 19:07:48,935:smac.intensification.intensification.Intensifier] Challenger was the same as the current incumbent; Skipping challenger
+2020-12-12 19:07:49,444 - [ZEROCONF] - spawn_autosklearn_classifier - INFO - ####### Finished seed=2
+2020-12-12 19:07:50,307 - [ZEROCONF] - spawn_autosklearn_classifier - INFO - ####### Finished seed=3
+2020-12-12 19:07:50,311 - [ZEROCONF] - train_multicore - INFO - Multicore fit completed
+2020-12-12 19:07:50,319 - [ZEROCONF] - zeroconf_fit_ensemble - INFO - Building ensemble
+2020-12-12 19:07:50,319 - [ZEROCONF] - zeroconf_fit_ensemble - INFO - Done AutoSklearnClassifier - seed:1
+2020-12-12 19:08:13,502 - [ZEROCONF] - zeroconf_fit_ensemble - INFO - Ensemble built - seed:1
+2020-12-12 19:08:13,502 - [ZEROCONF] - zeroconf_fit_ensemble - INFO - Show models - seed:1
+2020-12-12 19:08:13,971 - [ZEROCONF] - zeroconf_fit_ensemble - INFO - [(1.000000, SimpleClassificationPipeline({'balancing:strategy': 'none', 'categorical_encoding:__choice__': 'no_encoding', 'classifier:__choice__': 'libsvm_svc', 'imputation:strategy': 'mean', 'preprocessor:__choice__': 'no_preprocessing', 'rescaling:__choice__': 'quantile_transformer', 'classifier:libsvm_svc:C': 151.43733554679667, 'classifier:libsvm_svc:gamma': 5.784671168861649, 'classifier:libsvm_svc:kernel': 'poly', 'classifier:libsvm_svc:max_iter': -1, 'classifier:libsvm_svc:shrinking': 'True', 'classifier:libsvm_svc:tol': 0.04585129541012144, 'rescaling:quantile_transformer:n_quantiles': 72649, 'rescaling:quantile_transformer:output_distribution': 'normal', 'classifier:libsvm_svc:coef0': 0.0, 'classifier:libsvm_svc:degree': 3},
+2020-12-12 19:08:13,971 - [ZEROCONF] - zeroconf_fit_ensemble - INFO - dataset_properties={
+2020-12-12 19:08:13,971 - [ZEROCONF] - zeroconf_fit_ensemble - INFO -   'task': 2,
+2020-12-12 19:08:13,971 - [ZEROCONF] - zeroconf_fit_ensemble - INFO -   'sparse': False,
+2020-12-12 19:08:13,971 - [ZEROCONF] - zeroconf_fit_ensemble - INFO -   'multilabel': False,
+2020-12-12 19:08:13,971 - [ZEROCONF] - zeroconf_fit_ensemble - INFO -   'multiclass': True,
+2020-12-12 19:08:13,971 - [ZEROCONF] - zeroconf_fit_ensemble - INFO -   'target_type': 'classification',
+2020-12-12 19:08:13,971 - [ZEROCONF] - zeroconf_fit_ensemble - INFO -   'signed': False})),
+2020-12-12 19:08:13,972 - [ZEROCONF] - zeroconf_fit_ensemble - INFO - ]
+2020-12-12 19:08:13,978 - [ZEROCONF] - zeroconf.py - INFO - Validating
+2020-12-12 19:08:13,978 - [ZEROCONF] - zeroconf.py - INFO - Predicting on validation set
+2020-12-12 19:08:14,218 - [ZEROCONF] - zeroconf.py - INFO - ########################################################################
+2020-12-12 19:08:14,219 - [ZEROCONF] - zeroconf.py - INFO - Accuracy score 87%
+2020-12-12 19:08:14,219 - [ZEROCONF] - zeroconf.py - INFO - The below scores are calculated for predicting '1' category value
+2020-12-12 19:08:14,220 - [ZEROCONF] - zeroconf.py - INFO - Precision: 87%, Recall: 87%, F1: 0.87
+2020-12-12 19:08:14,220 - [ZEROCONF] - zeroconf.py - INFO - Confusion Matrix: https://en.wikipedia.org/wiki/Precision_and_recall
+2020-12-12 19:08:14,221 - [ZEROCONF] - zeroconf.py - INFO - [158   0   3   0   0   0   0   0   0]
+2020-12-12 19:08:14,221 - [ZEROCONF] - zeroconf.py - INFO - [ 3 87  2  0  0  0  0  0  0]
+2020-12-12 19:08:14,222 - [ZEROCONF] - zeroconf.py - INFO - [ 5  5 49  0  0  0  0  0  0]
+2020-12-12 19:08:14,222 - [ZEROCONF] - zeroconf.py - INFO - [ 0  0  0 33  6  1  3  6  0]
+2020-12-12 19:08:14,222 - [ZEROCONF] - zeroconf.py - INFO - [ 0  0  0  1 57  3  4  3  0]
+2020-12-12 19:08:14,222 - [ZEROCONF] - zeroconf.py - INFO - [ 0  0  0  1  1 15  0  0  0]
+2020-12-12 19:08:14,223 - [ZEROCONF] - zeroconf.py - INFO - [ 0  0  0  3 10  0 53  1  0]
+2020-12-12 19:08:14,223 - [ZEROCONF] - zeroconf.py - INFO - [ 0  0  0  1  9  0  3 19  0]
+2020-12-12 19:08:14,223 - [ZEROCONF] - zeroconf.py - INFO - [ 0  0  0  0  0  0  0  0 37]
+2020-12-12 19:08:14,224 - [ZEROCONF] - zeroconf.py - INFO - Baseline 1636 positives from 582 overall = 281.1%
+2020-12-12 19:08:14,224 - [ZEROCONF] - zeroconf.py - INFO - ########################################################################
+2020-12-12 19:08:14,224 - [ZEROCONF] - zeroconf.py - INFO - ##### Nothing to predict. Prediction dataset is empty. #####

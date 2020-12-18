@@ -1,0 +1,329 @@
+Program started with the following arguments:
+Namespace(data_file=['./data/SCC403CWWeatherData.txt'], param_file=None)
+Using the default parameter file: /home/kieran/Documents/scc403-cw/main/parameter/default.yml
+Set basedir to: /home/kieran/Documents/scc403-cw/main
+Program Call Parameter (Arguments and Parameter File Values):
+   basedir: /home/kieran/Documents/scc403-cw/main
+   data_file: /home/kieran/Documents/scc403-cw/main/data/SCC403CWWeatherData.txt
+   figures: /home/kieran/Documents/scc403-cw/main
+   id_field: idx
+   max_classifier_time_budget: 1200
+   max_sample_size: 100000
+   memory_limit: 15000
+   parameter_file: /home/kieran/Documents/scc403-cw/main/parameter/default.yml
+   proc: main.py
+   resultfile: /home/kieran/Documents/scc403-cw/main/data/zeroconf-result.csv
+   runid: 20201218104144
+   runtype: RESTART
+   target_field: category
+   workdir: /home/kieran/Documents/scc403-cw/main/work/20201218104144
+Calculating Clusters:
+..................Done
+CLustering 3
+Accuracy: 0.9735449735449735
+              precision    recall  f1-score   support
+
+           0       0.98      0.97      0.97       100
+           1       1.00      1.00      1.00        15
+           2       0.96      0.97      0.97        74
+
+    accuracy                           0.97       189
+   macro avg       0.98      0.98      0.98       189
+weighted avg       0.97      0.97      0.97       189
+
+Accuracy: 0.9417989417989417
+              precision    recall  f1-score   support
+
+           0       0.93      0.97      0.95       113
+           1       1.00      0.94      0.97        18
+           2       0.94      0.88      0.91        58
+
+    accuracy                           0.94       189
+   macro avg       0.96      0.93      0.94       189
+weighted avg       0.94      0.94      0.94       189
+
+Accuracy: 0.9523809523809523
+              precision    recall  f1-score   support
+
+           0       0.97      0.99      0.98        99
+           1       0.92      0.96      0.94        51
+           2       0.94      0.85      0.89        39
+
+    accuracy                           0.95       189
+   macro avg       0.95      0.93      0.94       189
+weighted avg       0.95      0.95      0.95       189
+
+Accuracy: 0.9947089947089947
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      1.00       181
+           1       1.00      1.00      1.00         2
+           2       1.00      0.83      0.91         6
+
+    accuracy                           0.99       189
+   macro avg       1.00      0.94      0.97       189
+weighted avg       0.99      0.99      0.99       189
+
+CLustering 4
+Accuracy: 0.9629629629629629
+              precision    recall  f1-score   support
+
+           0       0.97      0.94      0.95        33
+           1       0.90      0.82      0.86        11
+           2       0.92      0.94      0.93        50
+           3       0.99      1.00      0.99        95
+
+    accuracy                           0.96       189
+   macro avg       0.94      0.92      0.93       189
+weighted avg       0.96      0.96      0.96       189
+
+Accuracy: 0.8888888888888888
+              precision    recall  f1-score   support
+
+           0       0.81      0.92      0.86        37
+           1       1.00      0.91      0.95        11
+           2       0.96      0.84      0.90        64
+           3       0.86      0.91      0.89        77
+
+    accuracy                           0.89       189
+   macro avg       0.91      0.90      0.90       189
+weighted avg       0.90      0.89      0.89       189
+
+Accuracy: 0.9206349206349206
+              precision    recall  f1-score   support
+
+           0       0.79      1.00      0.88        23
+           1       0.96      0.81      0.88        32
+           2       0.95      0.91      0.93        78
+           3       0.93      0.96      0.95        56
+
+    accuracy                           0.92       189
+   macro avg       0.91      0.92      0.91       189
+weighted avg       0.93      0.92      0.92       189
+
+Accuracy: 0.9894179894179894
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99       183
+           2       1.00      1.00      1.00         2
+           3       1.00      0.50      0.67         4
+
+    accuracy                           0.99       189
+   macro avg       1.00      0.83      0.89       189
+weighted avg       0.99      0.99      0.99       189
+
+CLustering 5
+Accuracy: 0.9417989417989417
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.98        80
+           1       0.93      0.85      0.89        33
+           2       0.89      0.92      0.90        36
+           3       0.92      1.00      0.96        11
+           4       1.00      0.90      0.95        29
+
+    accuracy                           0.94       189
+   macro avg       0.94      0.93      0.93       189
+weighted avg       0.94      0.94      0.94       189
+
+Accuracy: 0.91005291005291
+              precision    recall  f1-score   support
+
+           0       0.86      0.85      0.85        52
+           1       1.00      0.87      0.93        15
+           2       0.97      0.88      0.92        34
+           3       0.89      0.99      0.94        73
+           4       1.00      0.87      0.93        15
+
+    accuracy                           0.91       189
+   macro avg       0.94      0.89      0.91       189
+weighted avg       0.91      0.91      0.91       189
+
+Accuracy: 0.9365079365079365
+              precision    recall  f1-score   support
+
+           0       0.77      0.92      0.84        25
+           1       0.95      0.88      0.92        43
+           2       0.98      0.98      0.98        90
+           3       1.00      0.50      0.67         4
+           4       0.96      0.96      0.96        27
+
+    accuracy                           0.94       189
+   macro avg       0.93      0.85      0.87       189
+weighted avg       0.94      0.94      0.94       189
+
+Accuracy: 0.9788359788359788
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99       177
+           1       1.00      0.33      0.50         3
+           3       1.00      1.00      1.00         4
+           4       1.00      0.60      0.75         5
+
+    accuracy                           0.98       189
+   macro avg       0.99      0.73      0.81       189
+weighted avg       0.98      0.98      0.97       189
+
+Computing LLE embedding
+Done. Reconstruction error: 0.000156488
+Optimal number of features : 6
+Accuracy: 0.9576719576719577
+              precision    recall  f1-score   support
+
+           0       0.94      1.00      0.97        85
+           1       1.00      0.81      0.89        21
+           2       0.94      0.98      0.96        46
+           3       1.00      0.82      0.90        11
+           4       1.00      0.96      0.98        26
+
+    accuracy                           0.96       189
+   macro avg       0.98      0.91      0.94       189
+weighted avg       0.96      0.96      0.96       189
+
+Accuracy: 0.8835978835978836
+              precision    recall  f1-score   support
+
+           0       0.96      0.84      0.89        55
+           1       1.00      0.88      0.93        16
+           2       0.84      0.84      0.84        25
+           3       0.84      0.94      0.88        78
+           4       0.87      0.87      0.87        15
+
+    accuracy                           0.88       189
+   macro avg       0.90      0.87      0.88       189
+weighted avg       0.89      0.88      0.88       189
+
+Accuracy: 0.9470899470899471
+              precision    recall  f1-score   support
+
+           0       0.89      0.87      0.88        39
+           1       0.94      0.97      0.96        35
+           2       0.98      0.99      0.98        82
+           3       1.00      0.89      0.94         9
+           4       0.92      0.92      0.92        24
+
+    accuracy                           0.95       189
+   macro avg       0.95      0.93      0.94       189
+weighted avg       0.95      0.95      0.95       189
+
+Accuracy: 0.9788359788359788
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99       182
+           1       1.00      0.33      0.50         3
+           3       1.00      1.00      1.00         2
+           4       0.00      0.00      0.00         2
+
+    accuracy                           0.98       189
+   macro avg       0.74      0.58      0.62       189
+weighted avg       0.97      0.98      0.97       189
+
+Calculating Clusters:
+..................Done
+CLustering 5
+Accuracy: 0.971830985915493
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.99        35
+           1       1.00      1.00      1.00        17
+           2       1.00      1.00      1.00        14
+           3       0.97      0.94      0.96        35
+           4       0.93      0.98      0.95        41
+
+    accuracy                           0.97       142
+   macro avg       0.98      0.98      0.98       142
+weighted avg       0.97      0.97      0.97       142
+
+Accuracy: 0.9014084507042254
+              precision    recall  f1-score   support
+
+           0       0.87      0.94      0.90        64
+           1       0.85      0.79      0.81        28
+           2       1.00      1.00      1.00        11
+           3       1.00      1.00      1.00        10
+           4       0.96      0.86      0.91        29
+
+    accuracy                           0.90       142
+   macro avg       0.94      0.92      0.93       142
+weighted avg       0.90      0.90      0.90       142
+
+Accuracy: 0.9436619718309859
+              precision    recall  f1-score   support
+
+           0       0.88      1.00      0.94        46
+           1       1.00      0.93      0.97        15
+           2       0.89      0.89      0.89         9
+           3       0.97      0.97      0.97        35
+           4       1.00      0.86      0.93        37
+
+    accuracy                           0.94       142
+   macro avg       0.95      0.93      0.94       142
+weighted avg       0.95      0.94      0.94       142
+
+Accuracy: 0.9647887323943662
+              precision    recall  f1-score   support
+
+           0       0.97      0.99      0.98       127
+           1       0.00      0.00      0.00         1
+           2       0.00      0.00      0.00         2
+           3       0.80      1.00      0.89         4
+           4       1.00      0.88      0.93         8
+
+    accuracy                           0.96       142
+   macro avg       0.55      0.57      0.56       142
+weighted avg       0.95      0.96      0.95       142
+
+Computing LLE embedding
+Done. Reconstruction error: 0.000186569
+Optimal number of features : 6
+Accuracy: 0.9647887323943662
+              precision    recall  f1-score   support
+
+           0       0.97      0.97      0.97        35
+           1       1.00      1.00      1.00        18
+           2       1.00      0.89      0.94        18
+           3       0.95      0.95      0.95        38
+           4       0.94      1.00      0.97        33
+
+    accuracy                           0.96       142
+   macro avg       0.97      0.96      0.97       142
+weighted avg       0.97      0.96      0.96       142
+
+Accuracy: 0.8802816901408451
+              precision    recall  f1-score   support
+
+           0       0.84      0.98      0.90        57
+           1       0.92      0.77      0.84        30
+           2       0.91      1.00      0.95        10
+           3       1.00      0.93      0.96        14
+           4       0.88      0.74      0.81        31
+
+    accuracy                           0.88       142
+   macro avg       0.91      0.88      0.89       142
+weighted avg       0.89      0.88      0.88       142
+
+Accuracy: 0.9225352112676056
+              precision    recall  f1-score   support
+
+           0       0.84      1.00      0.91        41
+           1       1.00      0.79      0.88        14
+           2       0.87      0.81      0.84        16
+           3       0.97      1.00      0.99        34
+           4       1.00      0.86      0.93        37
+
+    accuracy                           0.92       142
+   macro avg       0.93      0.89      0.91       142
+weighted avg       0.93      0.92      0.92       142
+
+Accuracy: 0.9647887323943662
+              precision    recall  f1-score   support
+
+           0       0.97      0.99      0.98       126
+           1       0.00      0.00      0.00         1
+           3       1.00      0.62      0.77         8
+           4       0.88      1.00      0.93         7
+
+    accuracy                           0.96       142
+   macro avg       0.71      0.65      0.67       142
+weighted avg       0.96      0.96      0.96       142
+
